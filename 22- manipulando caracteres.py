@@ -1,0 +1,12 @@
+
+frase= str(input('digite seu nome completo')).strip()
+f=frase.split()
+print('analizando seu nome....')
+print('seu nome em letras maisculas é',frase.upper())
+print('seu nome em letras minusculas é',frase.lower())
+print('total de letras: ',len(frase)-frase.count(' '))
+#print('seu primeiro nome tem {} letras'.format(frase.find(' ')))
+#print('seu primeiro nome é {} letras '.format(.find(' ')))
+print(f'seu primeiro nome é {f[0]} e tem {len(f[0])} letras')
+print(f)
+print(frase.find('a'))
